@@ -1,0 +1,324 @@
+ *{ margin:0%;
+  padding:0%;
+  box-sizing:border-box;
+  font-family:'Gill Sans';
+}
+
+html, body {
+  height:100%;   
+  width:100%;
+}
+#main {
+    height:100%;
+  width:100%;
+}
+#header{
+ height: 13%;
+ width: 100%;
+ position :fixed;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ background-color: white; 
+}
+#heading h1{
+    font-weight: 600;
+}
+#btns{
+    display: flex;
+}
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(89, 213, 255);
+}
+#btn1:hover{
+    background-color: rgb(0, 66, 88);
+}
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: lightblue;
+    border:1px solid rgb(89, 213, 255);
+}
+#btn2:hover{
+    background-color: lightblue;
+    color:rgb(0, 67, 90);
+    border-color: rgb(0, 67, 90);
+}
+#logo {
+    margin: 25 px ;
+    height: 70%;
+}
+.icon{
+    
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    padding: 10px;
+    background-repeat: 50px;
+    display: flex;
+    border-radius: 50%;
+    
+}
+#login:hover{
+    background-color: lightblue;
+}
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texts{
+    color: rgb(0,0,92);
+    display: flex;
+}
+.texts:hover {
+    color: rgb(0,176,211);
+}
+#contactdetails{
+    margin-left: 40px;
+    font-weight: lighter;
+}
+#try{
+    background-color: lightgreen;
+    padding: 10px 20px;
+    color: black;
+}
+#try:hover{
+    background-color:  rgb(3, 202, 3);
+}
+#fakeHeader{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(240, 241, 251);    
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+}
+#strip{
+  width: 100%;
+  height: 8%;  
+  background-color: blue; 
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgb(0, 0, 80);
+    font-size: 50px;
+    margin:30px 10px;
+    
+}
+#box1 p{
+    font-size: x-large;
+    margin: 10px;
+    font-weight:lighter;
+    margin:30px 10px;
+   
+}
+#box2{
+    height: 90%;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    
+    color: darkblue;
+
+}
+#heading h1{
+    font-weight: 600;
+    
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#page2{
+    height: 87%;
+    width: 100%;
+   background-color: #fff;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0 0 8px;
+    font-size: 1.5em;
+}
+
+.card-description {
+    margin: 0 0 16px;
+    color: #666;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+.button{
+    margin-left: 50%;
+    margin-top: 70px;
+    align-items: center;
+}
+.button p{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid;
+    align-items: center;
+    margin-top: 20px;
+
+}
+#page3{
+    height: 100%;
+    width: 100%;
+   background-color: #fff;
+}
+.img{
+    margin-top: -30%;
+    width: 50px;
+    
+}
+.card-img{
+    width: 200px;
+    align-items: center;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+   background-color: #fff;
+}
+.hd{
+    text-align: center;
+    margin-top: 100px;
+    font-family:itc Arial, Helvetica, sans-serif;
+    color: rgb(3,45,96);
+    font-size: 30px;
+}
+.heading4 p{
+    text-align: center;
+    font-weight:larger;
+    margin-top: 5%;
+    font-size: 30px;
+}
+#btns1{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#page5{
+    height:100%;
+    width: 100%;
+   background-color: #fff;
+   margin-top: 80px;
+}
+#page6{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.btn3{
+    text-align: center;
+    margin-top:60px;
+    width: 150px;
+    margin-left: 50%;
+}
+.width{
+    width: 300px;
+    margin-left: 40%;
+    background-color:transparent;
+}
+
+
